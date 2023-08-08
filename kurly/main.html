@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <title>컬리 - 마켓컬리/뷰티컬리</title>
+
+</head>
+<body>
+  <header>
+    <!-- 로그인, 회원가입, 고객센터 -->
+    <div class="top-menu-box">
+      <div class="join-login-box">
+        <a class="login-link-text" href="#">
+          회원가입
+        </a>
+        <div class="join-login-slash"></div>
+        <a class="join-link-text" href="#">
+          로그인
+        </a>
+        <div class="join-login-slash"></div>
+        <a class="customer-link-text" href="#">
+          고객센터
+          <span class="customer-dropdown-Btn"></span>
+        </a>
+      </div><!-- join-login-box -->
+    
+      <!-- 메인로고 & 서치바 배송지등록, 찜, 장바구니 -->
+      <!-- 로고 & 마켓, 뷰티컬리 전환 버튼 -->
+      <div class="logo-search-box-wrapper">
+        <div class="menu-logo-box">
+          <img class="menu-logo" src="images/icons/kurly_logo.svg" alt="컬리로고">
+          <button class="market-Btn">
+            마켓컬리
+          </button>
+          <button class="beauty-Btn">
+            뷰티컬리
+          </button>
+        </div>
+
+        <!-- 서치바 -->
+        <div class="top-search-bar-box">
+          <div class="top-search-bar">
+            <input id="gnb_search" placeholder="검색어를 입력해주세요" required="" class="top-search-bar-input" value="">
+            <button id="submit" aria-label="submit" class="top-search-bar-Btn"></button>
+          </div>
+        </div>
+
+        <!-- 배송지등록, 찜, 장바구니 아이콘형 버튼 -->
+        <div class="top-items-box-wrapper">
+          <div class="top-items-box">
+            <div class="items-address-Btn"></div>
+            <button class="items-zzim-Btn" aria-label="찜하기" type="button"></button>
+            <div class="items-basket-Btn-box">
+              <button class="items-basket-Btn"></button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- logo-search-box-wrapper -->    
+    </div><!-- top-search-logo-box -->
+
+    <!-- 카테고리 & 메인 메뉴 -->
+    <div class="main-menu-box-wrapper">
+      <div class="main-menu-box">
+        <!-- 카테고리 버튼 -->
+        <div class="cate-box-wrapper">
+          <div class="cate-box" id="categoryBtn">
+            <span class="cate-Btn-icon"></span>
+            <span class="cate-Btn-text">카테고리</span>
+          </div>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <!-- 카테고리 :: 드롭다운 메뉴 아이템 -->
+            <div class="dropdown-item-box">
+              <a href="#"><span class="dropdown-item">채소</span></a>
+              <a href="#"><span class="dropdown-item">과일・견과・쌀</span></a>
+              <a href="#"><span class="dropdown-item">수산・해산・건어물</span></a>
+              <a href="#"><span class="dropdown-item">정육・계란</span></a>
+              <a href="#"><span class="dropdown-item">국・반찬・메인요리</span></a>
+              <a href="#"><span class="dropdown-item">샐러드・간편식</span></a>
+              <a href="#"><span class="dropdown-item">면・양념・오일</span></a>
+              <a href="#"><span class="dropdown-item">생수・음료・우유・커피</span></a>
+              <a href="#"><span class="dropdown-item">간식・과자・떡</span></a>
+              <a href="#"><span class="dropdown-item">베이커리・치즈・델리</span></a>
+              <a href="#"><span class="dropdown-item">건강식품</span></a>
+              <a href="#"><span class="dropdown-item">와인・위스키</span></a>
+              <a href="#"><span class="dropdown-item">전통주</span></a>
+              <a href="#"><span class="dropdown-item">생활용품・리빙・캠핑</span></a>
+              <a href="#"><span class="dropdown-item">스킨케어・메이크업</span></a>
+              <a href="#"><span class="dropdown-item">헤어・바디・구강</span></a>
+              <a href="#"><span class="dropdown-item">주방용품</span></a>
+              <a href="#"><span class="dropdown-item">가전제품</span></a>
+              <a href="#"><span class="dropdown-item">반려동물</span></a>
+              <a href="#"><span class="dropdown-item">베이비・키즈・완구</span></a>
+              <a href="#"><span class="dropdown-item">컬리의 추천</span></a>
+            </div>
+          </div>
+        </div>
+        <!-- 메인 메뉴 :: 신상품, 베스트, 알뜰, 특가혜택-->
+        <ul class="main-menu-list-box">
+          <li class="main-menu-list">
+            <span class="main-menu-list-sp">신상품</span>
+          </li>
+          <li class="main-menu-list">
+            <span class="main-menu-list-sp">베스트</span>
+          </li>
+          <li class="main-menu-list">
+            <span class="main-menu-list-sp">알뜰쇼핑</span>
+          </li>
+          <li class="main-menu-list">
+            <span class="main-menu-list-sp">특가/혜택</span>
+          </li>
+        </ul>
+
+        <!-- 샛별택배 배송안내 버튼 -->
+        <div class="delivery-notice-box">
+          <a class="delivery-notice-link" href="">
+            <div class="delivery-notice-inner-box">
+              <span class="delivery-notice-span">샛별・택배</span>
+              배송안내
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <content class="main-content">
+    <!-- 슬라이드 이미지 -->
+    <div class="swiper-place">
+      <div class="swiper-box">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="images/banner/kurly_slide_02.jpeg"></div>
+              <div class="swiper-slide"><img src="images/banner/kurly_slide_01.jpeg"></div>
+              <div class="swiper-slide"><img src="images/banner/kurly_slide_03.png"></div>
+            </div>
+            <!-- buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div><!-- swiper-container -->
+      </div>
+    </div>
+    <!-- 이 상품 어때요? -->
+    <div class="product-recommend-place">
+      <div class="product-recommend-tit-box">
+        <a href="#">
+          <span class="product-recommend-tit">
+            이 상품 어때요?
+          </span>
+        </a>
+      </div>
+      <div class="product-recommend-box">
+        <div class="product-recommend-swiper">
+          <div class="product-recommend-swiper-wrapper">
+            <div class="product-recommend-img-box">
+              <img src="/images/sumnail/recommend_01.jpeg" alt="상품추천">
+            </div>
+            <div class="product-recommend-img-box">
+              <img src="/images/sumnail/recommend_02.jpeg" alt="">
+            </div>
+            <div class="product-recommend-img-box">
+              <img src="/images/sumnail/recommend_03.jpeg" alt="">
+            </div>
+            <div class="product-recommend-img-box">
+              <img src="/images/sumnail/recommend_04.jpeg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+
+</body>
+</html>
+<script src="/js/main.js"></script>
+<script src="/js/swiper.js"></script>
