@@ -1,37 +1,186 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/main.css" />
+
   <title>우리의 레시피 | 레시피</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
 </head>
+
 <body>
   <header>
     <div class="top-banner-box-wrap">
       <div class="top-banner-box">
         <div class="top-banner-box-inner">
 
+          <a href="#">
+            <div class="top-banner-logo-box">
+              <span class="top-banner-logo"></span>
+            </div>
+          </a>
+
+          <div class="top-banner-items-box-wrap">
             <a href="#">
-              <div  class="top-banner-logo-box">
-                <span class="top-banner-logo"></span>
+              <div class="top-banner-item-box">
+                <div class="top-banner-icon-space">
+                  <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m12.997 12.995 7.071 7.07M13.221 3.74a6.704 6.704 0 1 1-9.48 9.482 6.704 6.704 0 0 1 9.48-9.482Z"
+                      stroke="#616161" stroke-width="2"></path>
+                  </svg>
+                </div>
               </div>
             </a>
-            <div></div>
+
+            <a href="#">
+              <div class="top-banner-item-box">
+                <div class="top-banner-icon-space">
+                  <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 7.5H5.875L7.2 12.625H20L22 7.5Z" fill="#616161" stroke="#616161"></path>
+                    <path d="M10 19a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM19 19a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="#616161">
+                    </path>
+                    <path d="M10 19a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM19 19a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" stroke="#616161">
+                    </path>
+                    <path d="M2 4h3l3 12h12" stroke="#616161" stroke-width="2"></path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <div class="top-banner-item-box">
+              <div class="top-banner-icon-space">
+                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17 7A5 5 0 1 1 7 7a5 5 0 0 1 10 0ZM7.39 12.5s1.766 1.816 4.61 1.816c2.844 0 4.61-1.816 4.61-1.816l.242.234c1.515 1.461 2.66 3.271 3.135 7.253.13 1.09-.705 2.013-1.741 2.013H5.753c-1.036 0-1.87-.923-1.74-2.013.475-3.982.698-5.485 3.21-7.366.064-.048.166-.121.166-.121Z"
+                    fill="#616161"></path>
+                </svg>
+              </div>
+            </div>
+
+          </div>
 
 
         </div>
+
+        <!-- 메인 메뉴 -->
+        <nav class="top-banner-nav-wrap">
+          <a href="#">
+            <div class="top-banner-nav-item">
+              레시피
+            </div>
+          </a>
+          <a href="#" class="">
+            <div class="top-banner-nav-item">
+              키친가이드
+            </div>
+          </a>
+          <a href="#" class="">
+            <div class="top-banner-nav-item">
+              요리토크
+            </div>
+          </a>
+          <a href="#" class="">
+            <div class="top-banner-nav-item">
+              공지사항
+            </div>
+          </a>
+        </nav><!-- 메인 메뉴 -->
+
+      </div>
+    </div><!-- top-banner-box-wrap -->
+  </header>
+
+  <main class="main-content">
+    <!-- 슬라이드 이미지 -->
+    <div class="swiper-place">
+      <div class="swiper-box">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="images/sums/slide-01.jpg"></div>
+            <div class="swiper-slide"><img src="images/sums/slide-02.jpg"></div>
+            <div class="swiper-slide"><img src="images/sums/slide-03.jpg"></div>
+          </div>
+          <!-- buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div><!-- swiper-container -->
       </div>
     </div>
-  </header>
-  
-  <content>
 
-  </content>
-  
+    <!-- 맞춤 추천 레시피 -->
+    <section class="your-recipy-sec">
+      <div class="section-tex-box">
+        <h1>RECIPES FOR YOU</h1>
+        <h2>맞춤 추천 레시피를 둘러보세요.</h2>
+      </div>
+      <div class="your-recipy-sec-img-box">
+        <div class="your-recipy-sec-img-box-fir con-image-box">
+          <a href="#">
+            <img src="/images/sums/recipy-sec-01.jpg" alt="#">
+          </a>
+        </div>
+        <div class="your-recipy-sec-img-box-sec con-image-box">
+          <a href="#">
+            <img src="/images/sums/recipy-sec-02.jpg" alt="#">
+          </a>
+        </div>
+        <div class="your-recipy-sec-img-box-tir con-image-box">
+          <a href="#">
+            <img src="/images/sums/recipy-sec-03.jpg" alt="#">
+          </a>
+        </div>
+        <div class="your-recipy-sec-img-box-four con-image-box">
+          <a href="#">
+            <img src="/images/sums/recipy-sec-04.jpg" alt="#">
+          </a>
+        </div>
+      </div>
+    </section><!-- 맞춤 추천 레시피 -->
+
+    <!-- 큐레이션 리스트 -->
+    <section class="curation-list">
+      <div class="section-tex-box">
+        <h1>CURATION LIST</h1>
+        <h2>우리의테이블만의 큐레이션으로<br>
+          고민없이 맛있는 식탁을 차려보세요.
+        </h2>
+      </div>
+
+      <div class="curaion-more-Btn">
+        <a href="#">
+          더 많은 큐레이션 보러가기
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 19 18">
+            <path stroke="#000" d="m14.953 6.469-5.07 5.062L4.828 6.47"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="curation-list-imgs">
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
   <footer>
 
   </footer>
 
 </body>
+
 </html>
+<script src="/js/main.js"></script>
+<script src="/js/swiper.js"></script>
