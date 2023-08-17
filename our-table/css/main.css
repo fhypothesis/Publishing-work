@@ -1,0 +1,51 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* :root {} */
+
+body {
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color-dark-grey);
+}
+
+.top-banner-box-wrap {
+  width: 100%;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.top-banner-box {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.top-banner-box-inner {
+  padding-top: 8px;
+  padding-right: 14px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.top-banner-logo-box {
+  margin-top: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.top-banner-logo {
+  width: 120px;
+  height: 26px;
+  background: url(/images/our-recipy-logo.png) 0% 0% 120px 26px no-repeat; 
+}
