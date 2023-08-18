@@ -18,7 +18,7 @@
    이미지 출처: https://unsplash.com/ko<br>
    
 3. 마켓컬리(원 소스 출처: https://www.kurly.com/)<br>
-   총 작업시간 : 1일 (현재 작업중)<br>
+   총 작업시간 : 2일 (현재 작업중)<br>
    html, css, 자바스크립트 학습하기 위해 현재 카피 중인 사이트입니다.<br>
 
 4. 우리의테이블(원 소스 출처: https://wtable.co.kr/store)<br>
