@@ -1,0 +1,38 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --main-color-purple: rgb(95, 0, 128);
+  --text-color-light-grey: rgb(217, 217, 217);
+  --text-color-grey: rgb(181, 181, 181);
+  --text-color-dark-grey: #333333;
+  --text-color-red: #fa622f;
+
+  --background-color-light-grey: #f7f7f7;
+  --background-color-t-down-purple: #816880;
+
+}
+
+body {
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color-dark-grey);
+}
+
+#header__navi {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+#header__navi .header__inner {
+  max-width: 1440px;
+  padding-top: 16px;
+}
