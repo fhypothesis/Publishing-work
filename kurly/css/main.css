@@ -100,14 +100,26 @@ img.menu-logo {
   height: 63px;
 }
 
-.market-Btn {
+.m-b-revese-Btn-p {
   font-weight: 500;
+  color: var(--main-color-purple);
+}
+
+.m-b-revese-Btn-g {
+  color: var(--text-color-grey);
+}
+
+.market-Btn {
   flex-shrink: 0;
   margin-left: 20px;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: normal;
+}
+
+.market-Btn a:hover {
   color: var(--main-color-purple);
+  font-weight: 500;
 }
 
 .market-Btn:not(:last-of-type)::after {
@@ -123,13 +135,16 @@ img.menu-logo {
 .beauty-Btn {
   flex-shrink: 0;
   font-size: 18px;
-  font-weight: normal;
   line-height: 1.33;
   letter-spacing: normal;
-  color: var(--text-color-grey);
   cursor: pointer;
   position: relative;
   margin-left: 22px;
+}
+
+.beauty-Btn a:hover {
+  color: var(--main-color-purple);
+  font-weight: 500;
 }
 
 .beauty-Btn::after {
@@ -232,6 +247,7 @@ img.menu-logo {
 }
 
 .main-menu-box-wrapper {
+  font-family: 'Noto Sans KR', sans-serif;
   min-width: 1050px;
   letter-spacing: -0.3px;
   background-color: rgb(255, 255, 255);
@@ -252,6 +268,7 @@ img.menu-logo {
 }
 
 .cate-box {
+  font-family: 'Noto Sans KR', sans-serif;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
