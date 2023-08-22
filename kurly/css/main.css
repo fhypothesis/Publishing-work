@@ -14,10 +14,15 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 body {
   position: relative;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -339,7 +344,7 @@ img.menu-logo {
   cursor: pointer;
 }
 
-.main-menu-list-sp:hover {
+.main-menu-list-sp a:hover {
   color: var(--main-color-purple);
   text-decoration: underline;
   text-underline-offset: 3px;
