@@ -259,6 +259,16 @@ img.menu-logo {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 3px 4px 0px;
   width: 100%;
+  transition: top 0.3s;
+  /* 스크롤 시의 부드러운 효과를 위한 트랜지션 추가 */
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 3px 4px 0px;
+  width: 100%;
   z-index: 10;
 }
 
