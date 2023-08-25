@@ -273,7 +273,6 @@ img.menu-logo {
 }
 
 .main-menu-box {
-  position: relative;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -299,8 +298,11 @@ img.menu-logo {
 
 /* 드롭다운 메뉴 숨기기 */
 .dropdown-menu {
+  position: relative;
   display: none;
   position: absolute;
+
+  z-index: 100;
 }
 
 /* 드롭다운 메뉴 아이템 스타일링 */
@@ -310,6 +312,7 @@ img.menu-logo {
   overflow: scroll;
   overflow-x: hidden;
   border: 0.1px solid var(--text-color-light-grey);
+  z-index: 100;
 }
 
 .dropdown-item-box a:hover .dropdown-item {
@@ -328,6 +331,7 @@ img.menu-logo {
   font-size: 13px;
   color: var(--text-color-dark-grey);
   letter-spacing: -0.6px;
+
 }
 
 .main-menu-list-box {
