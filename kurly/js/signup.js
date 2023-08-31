@@ -17,6 +17,11 @@ document.getElementById("popAddressBtn").addEventListener("click", () => {
 			addressInput.classList.remove("hidden");
 			addressInput.classList.add("form-input-popup-Btn-input");
 
+			// 상세주소 입력 폼
+			const addressDetailInput = document.getElementById("addressdetail");
+			addressDetailInput.classList.remove("hidden");
+			addressDetailInput.classList.add("form-input-popup-Btn-input");
+
 			// formInputSpan 영역을 숨김 처리
 			const formInputSpan = document.getElementById("formInputSpan");
 			formInputSpan.classList.add("hidden");

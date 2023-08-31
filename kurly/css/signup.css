@@ -150,6 +150,10 @@
   box-sizing: border-box;
 }
 
+.btm-magin {
+  margin-bottom: 10px;
+}
+
 .form-input-popup-Btn span {
   font-size: 14px;
   font-weight: 500;
