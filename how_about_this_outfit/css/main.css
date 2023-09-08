@@ -1,0 +1,35 @@
+:root {
+	--point-color: #63a9c4;
+	--bg-light-gray: #eeeeee;
+	--text-color-dark-grey: #1b1b1b;
+	--line-light-grey: #cbcbcb;
+
+	--bg-white: #fff;
+	--bg-footer: rgb(247, 247, 247);
+
+}
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+a {
+	color: var(--text-color-dark-grey);
+}
+
+strong {
+	font-weight: 700;
+}

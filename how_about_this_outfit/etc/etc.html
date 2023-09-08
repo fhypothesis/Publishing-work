@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div>
+        <form method="POST" action="/">
+            <label for="location">지역:</label>
+            <input type="text" name="location" id="location" required><br><br>
+
+            <label for="date">날짜:</label>
+            <input type="text" name="date" id="date" required><br><br>
+
+            <input type="submit" value="확인">
+        </form>
+    </div>
+    <div>
+        <h3>날씨 정보</h3>
+        {% for forecast in forecast_data %}
+        <li>검색지역: {{ forecast['지역'] }}</li>
+        <li>검색날짜: {{ forecast['날짜'] }}</li>
+        <li>날씨: {{ forecast['날씨'] }}</li>
+        <li>최저 온도: {{ forecast['최저온도'] }}°C</li>
+        <li>최고 온도: {{ forecast['최고온도'] }}°C</li>
+        {% endfor %}
+    </div>
+    <div>
+        <h3>{{recomm_data[0]}}</h3>
+        <img src="{{ url_for('static', filename=recomm_data[1] ~ '.JPG') }}" />
+    </div>
+</body>
+
+</html>
