@@ -1,101 +1,367 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이옷어때? :: 날씨에 맞는 옷차림을 알려드려요</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <header class="top-nav">
+      <div class="top-nav-wrap">
+        <div class="top-logo">
+          <a href="#sectionFir">이옷어때?</a>
+        </div>
+        <div>
+          <ul class="main-nav">
+            <li><a href="#sectionFir">이옷어때?</a></li>
+            <li><a href="#sectionSec">날씨정보</a></li>
+            <li><a href="#sectionThi">기온별 옷차림</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-	<title>이옷어때? :: 날씨에 맞는 옷차림을 알려드려요</title>
+    <div class="main-content">
+      <div id="sectionFir" class="section-1-form">
+        <div class="sec-1-tit txt-tit-sty">
+          <div class="sec-tit-fir">원하는 날짜와 지역을 입력하시면</div>
+          <div>날씨에 맞는 옷차림을 알려 드릴게요.</div>
+        </div>
+        <div class="input-form-box">
+          <form method="POST" action="/" class="form-box">
+            <div class="input-box">
+              <div class="input-box-in">
+                <input
+                  type="text"
+                  name="location"
+                  id="location"
+                  required
+                  placeholder="원하는 지역을 입력해 주세요. 예: 대구"
+                  class="input-box-sty"
+                />
+              </div>
+            </div>
+            <div class="input-box">
+              <div class="input-box-in">
+                <div class="date-input">
+                  <input
+                    type="date"
+                    name="date"
+                    id="text"
+                    required
+                    class="input-box-sty"
+                    min="2023-10-26"
+                    max="2023-10-28"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="submit-Btn-box">
+              <div class="submit-Btn-box-in">
+                <input type="submit" value="보내기" class="submit-Btn-sty" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
-	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/main.css">
+      <div id="sectionSec" class="section-2">
+        <video autoplay muted loop id="video-background">
+          <source
+            src="./images/bg/clouds_-_106963 (1080p).mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
-		rel="stylesheet">
+        <div class="section-2-wrapper">
+          <div class="date-weather-box txt-tit-thin">
+            <li>2023년 10월 26일</li>
+            <li>대구광역시 날씨</li>
+          </div>
+          <div class="temperature-sty">25°C</div>
+          <div class="date-weather-box txt-tit-thin">
+            <li>대체로 맑음</li>
+            <li>최고: 30°C 최저: 18°C</li>
+          </div>
+        </div>
+      </div>
 
-</head>
+      <div id="sectionThi" class="section-3">
+        <div class="sec-3-tit txt-tit-sty">
+          <div class="sec-tit-fir">이런 옷차림 어때요?</div>
+          <div>
+            <ul>
+              <li>반팔,</li>
+              <li>얇은 셔츠,</li>
+              <li>반바지,</li>
+              <li>면바지</li>
+            </ul>
+          </div>
+        </div>
 
-<body>
-	<header class="top-nav">
-		<div class="top-nav-wrap">
-			<div class="top-logo">
-				<a href="/">
-					이옷어때?
-				</a>
-			</div>
-			<div>
-				<ul class="main-nav">
-					<li>
-						<a href="/">
-							이옷어때?
-						</a>
-					</li>
-					<li>
-						<a href="#sectionSec">
-							날씨정보
-						</a>
-					</li>
-					<li>
-						<a href="#sectionThi">
-							기온별 옷차림
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
-	<div class="main-content">
-		<div id="sectionFir" class="section-1-form">
-			<div class="sec-1-tit txt-tit-sty">
-				<div class="sec-1-tit-fir">오늘 날씨에 맞는 옷차림을 알려드릴게요.</div>
-				<div>원하는 날짜와 지역을 입력해주세요.</div>
-			</div>
-			<div class="input-form-box">
-				<form method="POST" action="/" class="form-box">
-					<div class="input-box">
-						<div class="input-box-in">
-							<input type="text" name="location" id="location" required placeholder="원하는 지역을 입력해 주세요. 예: 대구"
-								class="input-box-sty">
-						</div>
-					</div>
-					<div class="input-box">
-						<div class="input-box-in">
-							<input type="text" name="date" id="date" required placeholder="원하는 날짜를 입력해 주세요." class="input-box-sty">
-						</div>
-					</div>
-					<div class="submit-Btn-box">
-						<div class="submit-Btn-box-in">
-							<input type="submit" value="보내기" class="submit-Btn-sty">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
+        <div class="sec-3-cir-sumnails">
+          <div class="cir-img-box">
+            <img src="/images/icons/ico_shirt.png" alt="웃옷" />
+          </div>
+          <div class="cir-img-box">
+            <img src="/images/icons/ico_shirt.png" alt="윗옷" />
+          </div>
+          <div class="cir-img-box">
+            <img src="/images/icons/ico_shirt.png" alt="하의" />
+          </div>
+          <div class="cir-img-box">
+            <img src="/images/icons/ico_shirt.png" alt="악세서리" />
+          </div>
+        </div>
 
-		<div id="sectionSec" class="section-2">
-			<div class="section-2-wrapper">
+        <div class="sec-shop-link">
+          <div class="txt-tit-sty">추천 스타일</div>
+          <div class="swiper-wrapper">
+            <div class="swiper-wrap-again">
+              <div class="swiper-container">
+                <!-- 첫번째 슬라이드 -->
+                <div class="swiper-slide">
+                  <!-- img-box-01 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
 
-			</div>
-		</div>
-		<div id="sectionThi">
-			<div>
-				<li>2023년 10월 26일</li>
-				<li>대구광역시 날씨</li>
-			</div>
-			<div>
-				25°C
-			</div>
-			<div>
-				<li>대체로 맑음</li>
-				<li>최고: 30°C 최저: 18°C</li>
-			</div>
-		</div>
+                  <!-- img-box-02 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
 
-	</div>
-	<footer class="www-footer">
+                  <!-- img-box-03 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
 
-	</footer>
-</body>
+                <!-- 두번째 슬라이드 -->
+                <div class="swiper-slide">
+                  <!-- img-box-01 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
 
+                  <!-- img-box-02 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- img-box-03 -->
+                  <div class="sec-shop-link-sum">
+                    <div class="round-rec-img-box">
+                      <img
+                        src="/images/img_recommend/shop_sums_1.png"
+                        alt="달티 케이시 스커트"
+                      />
+                    </div>
+                    <div class="product-recommend-info-box">
+                      <h3 class="product-name">[DOLTTI] 케이시 스커트</h3>
+                      <div>
+                        <div>
+                          <div class="discount-rate">
+                            <span class="discount-rate-tex">30%</span>
+                            <span class="sales-price">10,710원</span>
+                          </div>
+                          <div class="dimmed-price">
+                            <span class="dimmed-price-tex">15,300원</span>
+                          </div>
+                          <div class="review-count">
+                            <div class="hash-tag-sty">
+                              #러블리 #데이트룩 #꾸안꾸룩
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="shop-link-Btn-sty">
+                        <a href="https://daltt.co.kr/" target="_blank"
+                          >구매하러 가기 GO!</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="swiper-button-prev"
+              onclick="prevSlide()"
+            ></button>
+            <button
+              type="button"
+              class="swiper-button-next"
+              onclick="nextSlide()"
+            ></button>
+          </div>
+          <!-- swiper-wrapper -->
+        </div>
+        <!-- sec-shop-link -->
+      </div>
+      <!-- section-3 -->
+    </div>
+    <!-- main-content -->
+
+    <footer class="www-footer">
+      <p>&copy;KB-Team Double-U All rights reserved.</p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
+  </body>
 </html>
