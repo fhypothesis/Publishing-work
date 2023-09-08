@@ -19,17 +19,79 @@
 <body>
 	<header class="top-nav">
 		<div class="top-nav-wrap">
-			<div>
-
+			<div class="top-logo">
+				<a href="/">
+					이옷어때?
+				</a>
 			</div>
-			<div></div>
+			<div>
+				<ul class="main-nav">
+					<li>
+						<a href="/">
+							이옷어때?
+						</a>
+					</li>
+					<li>
+						<a href="#sectionSec">
+							날씨정보
+						</a>
+					</li>
+					<li>
+						<a href="#sectionThi">
+							기온별 옷차림
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</header>
 	<div class="main-content">
-		<div></div>
-		<div></div>
-		<div></div>
-		<div> </div>
+		<div id="sectionFir" class="section-1-form">
+			<div class="sec-1-tit txt-tit-sty">
+				<div class="sec-1-tit-fir">오늘 날씨에 맞는 옷차림을 알려드릴게요.</div>
+				<div>원하는 날짜와 지역을 입력해주세요.</div>
+			</div>
+			<div class="input-form-box">
+				<form method="POST" action="/" class="form-box">
+					<div class="input-box">
+						<div class="input-box-in">
+							<input type="text" name="location" id="location" required placeholder="원하는 지역을 입력해 주세요. 예: 대구"
+								class="input-box-sty">
+						</div>
+					</div>
+					<div class="input-box">
+						<div class="input-box-in">
+							<input type="text" name="date" id="date" required placeholder="원하는 날짜를 입력해 주세요." class="input-box-sty">
+						</div>
+					</div>
+					<div class="submit-Btn-box">
+						<div class="submit-Btn-box-in">
+							<input type="submit" value="보내기" class="submit-Btn-sty">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div id="sectionSec" class="section-2">
+			<div class="section-2-wrapper">
+
+			</div>
+		</div>
+		<div id="sectionThi">
+			<div>
+				<li>2023년 10월 26일</li>
+				<li>대구광역시 날씨</li>
+			</div>
+			<div>
+				25°C
+			</div>
+			<div>
+				<li>대체로 맑음</li>
+				<li>최고: 30°C 최저: 18°C</li>
+			</div>
+		</div>
+
 	</div>
 	<footer class="www-footer">
 

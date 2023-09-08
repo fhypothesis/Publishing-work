@@ -24,12 +24,143 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: normal;
 	font-size: 14px;
+	color: var(--text-color-dark-grey);
 }
 
 a {
 	color: var(--text-color-dark-grey);
 }
 
-strong {
+/* 텍스트 스타일 */
+
+.txt-tit-sty {
 	font-weight: 700;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 33px;
+	text-align: center;
+	color: var(--text-color-dark-grey);
+	letter-spacing: -2.3px;
+	/* line-height */
+}
+
+/* 탑 네비게이션 */
+.top-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 4px 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.top-nav-wrap {
+	position: relative;
+	width: 1024px;
+	height: 76px;
+	margin: 0px auto;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.top-logo {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.main-nav {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.main-nav li a {
+	margin-left: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: -0.8px;
+}
+
+/* 메인 콘텐츠 */
+/* 사용자 입력 폼 화면 */
+.main-content {
+	display: block;
+	margin-top: 76px;
+}
+
+.section-1-form {
+	position: relative;
+	height: 533px;
+	width: 1024px;
+	margin: 0px auto;
+
+	padding-top: 145px;
+}
+
+.sec-1-tit-fir {
+	margin-bottom: 20px;
+}
+
+.input-form-box {
+	margin-top: 112px;
+	margin-bottom: 135px;
+}
+
+.form-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-box {
+	width: 345px;
+	margin-right: 4px;
+}
+
+.input-box-in {
+	position: relative;
+}
+
+.input-box-sty {
+	width: 100%;
+	height: 57px;
+	padding: 0px 11px 1px 15px;
+	border-radius: 10px;
+	border: 1px solid rgb(221, 221, 221);
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -1px;
+	color: var(--text-color-dark-grey);
+	outline: none;
+	box-sizing: border-box;
+}
+
+.submit-Btn-box {
+	width: 110px;
+}
+
+.submit-Btn-box-in {
+	position: relative;
+}
+
+.submit-Btn-sty {
+	width: 100%;
+	height: 57px;
+	padding: 0px 11px 1px 15px;
+	border-radius: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--bg-white);
+	outline: none;
+	box-sizing: border-box;
+	background-color: var(--point-color);
+}
+
+/* 날짜 정보 받아오는 섹션 */
+.section-2 {
+	position: relative;
+	margin: 0px auto;
+	height: 600px;
+	width: 100%;
 }
