@@ -80,6 +80,10 @@ a {
   font-weight: 900;
 }
 
+.top-logo a {
+  color: var(--point-color);
+}
+
 .main-nav {
   display: flex;
   -webkit-box-align: center;
@@ -105,7 +109,6 @@ a {
   height: 390px;
   width: 1024px;
   margin: 0px auto;
-
   padding-top: 145px;
 }
 
@@ -165,7 +168,7 @@ a {
   color: var(--bg-white);
   outline: none;
   box-sizing: border-box;
-  background-color: var(--text-color-red);
+  background-color: var(--point-color);
 }
 
 /* 날짜 정보 받아오는 섹션 */
