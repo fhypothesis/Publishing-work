@@ -16,6 +16,8 @@
    html, css는 스스로 작성하였으며 일부 디자인 요소는 핀터레스트를 참고하였고<br>
    자바스크립트는 chatGPT의 도움을 받아 작성하였습니다.<br>
    이미지 출처: https://unsplash.com/ko<br>
+
+   <b>작업물 확인해보기: https://fhypothesis.github.io/global_express/index.html</b>
    
 3. 마켓컬리(원 소스 출처: https://www.kurly.com/)<br>
    총 작업시간 : 8일 (가장 최근 작업)<br>
