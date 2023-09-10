@@ -13,8 +13,7 @@
    여러모로 미숙한 점이 많지만, 하나씩 더듬더듬 코드를 따라쳐 보면서<br>
    가장 많이 배우기도 한 작업입니다.<br>
 
-   <b>작업물 확인해보기: https://fhypothesis.github.io/janbogo/main.html</b>
-
+   <b>작업물 확인해보기: https://fhypothesis.github.io/janbogo/main.html</b><br><br>
 
 1. global express<br>
    총 작업시간 : 2일<br>
@@ -25,8 +24,7 @@
    자바스크립트는 chatGPT의 도움을 받아 작성하였습니다.<br>
    이미지 출처: https://unsplash.com/ko<br>
 
-   <b>작업물 확인해보기: https://fhypothesis.github.io/global_express/index.html</b>
-   
+   <b>작업물 확인해보기: https://fhypothesis.github.io/global_express/index.html</b><br><br>
    
 2. 마켓컬리(원 소스 출처: https://www.kurly.com/)<br>
    총 작업시간 : 8일 (가장 최근 작업)<br>
@@ -39,8 +37,7 @@
    회원가입 페이지에 다음 주소 API를 사용해 주소를 검색할 수 있는 팝업 창과<br>
    이용약관을 확인 할 수 있는 모달창을 달아보았습니다,<br>
 
-   <b>작업물 확인해보기: https://fhypothesis.github.io/kurly/main.html</b>
-   
+   <b>작업물 확인해보기: https://fhypothesis.github.io/kurly/main.html</b><br><br>
 
 5. 우리의테이블(원 소스 출처: https://wtable.co.kr/store)<br>
    총 작업시간 : 2일(향후 반응형으로 수정할 예정)<br>
@@ -49,7 +46,6 @@
    jsp 프로젝트를 만들기 위해 '우리의 식탁' 이라는 사이트를<br>
    요리 게시판 형태로 약간 수정하여 카피한 사이트입니다.<br>
    
-
 6. 내일 뭐 입지?<br>
    총 작업 시간: 2일<br>
    작업 내용: 메인 페이지 디자인, 퍼블리싱<br>
@@ -59,7 +55,7 @@
    디자인과 퍼블리싱 작업을 담당하였고<br>
    서비스 기획에 참여하였습니다.<br>
 
-   <b>작업물 확인해 보기: https://fhypothesis.github.io/how_about_this_outfit/main.html</p>
+   <b>작업물 확인해 보기: https://fhypothesis.github.io/how_about_this_outfit/main.html</p><br><br>
    
 <br>
    ...(이하 진행중)
