@@ -57,5 +57,4 @@
 
    <b>작업물 확인해 보기: https://fhypothesis.github.io/how_about_this_outfit/main.html</p><br><br>
    
-<br>
    ...(이하 진행중)
