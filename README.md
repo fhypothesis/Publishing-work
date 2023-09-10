@@ -26,7 +26,7 @@
    회원가입 페이지에 다음 주소 API를 사용해 주소를 검색할 수 있는 팝업 창과<br>
    이용약관을 확인 할 수 있는 모달창을 달아보았습니다,<br>
 
-   결과물 확인해보기: https://fhypothesis.github.io/kurly/main.html
+   작업물 확인해보기: https://fhypothesis.github.io/kurly/main.html
    
 
 5. 우리의테이블(원 소스 출처: https://wtable.co.kr/store)<br>
