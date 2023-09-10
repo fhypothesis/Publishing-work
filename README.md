@@ -26,7 +26,7 @@
    회원가입 페이지에 다음 주소 API를 사용해 주소를 검색할 수 있는 팝업 창과<br>
    이용약관을 확인 할 수 있는 모달창을 달아보았습니다,<br>
 
-   작업물 확인해보기: https://fhypothesis.github.io/kurly/main.html
+   <b>작업물 확인해보기: https://fhypothesis.github.io/kurly/main.html</b>
    
 
 5. 우리의테이블(원 소스 출처: https://wtable.co.kr/store)<br>
@@ -39,6 +39,8 @@
    파이썬 기반 팀프로젝트를 수행하기 위해 작업한 사이트입니다.<br>
    디자인과 퍼블리싱 작업을 담당하였고<br>
    서비스 기획에 참여하였습니다.<br>
+
+   <b>작업물 확인해 보기: https://fhypothesis.github.io/how_about_this_outfit/main.html</p>
    
 <br>
    ...(이하 진행중)
