@@ -33,6 +33,14 @@ a {
   color: var(--text-color-dark-grey);
 }
 
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.add-info-rover-Btn svg {
+  cursor: pointer;
+}
+
 /* 텍스트 스타일 */
 
 .txt-tit-sty {
