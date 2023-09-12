@@ -1,19 +1,5 @@
 # About this work...<br>
 
-<link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
-    rel="stylesheet" />
-    
-    <style>
-       * {
-        font-family: "Noto Sans KR", sans-serif;
-      }
-      
-      a {
-        color: #fa622f;
-      }
-    </style>
-
 안녕하세요. 디자이너&퍼블리셔 홍지현입니다.<br>
 이 저장소는 2023년 7월부터 수행한 퍼블리싱 작업을 모아둔 포트폴리오입니다.<br>
 <br>
