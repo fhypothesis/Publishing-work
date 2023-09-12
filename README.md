@@ -13,7 +13,10 @@
    여러모로 미숙한 점이 많지만, 하나씩 더듬더듬 코드를 따라쳐 보면서<br>
    가장 많이 배우기도 한 작업입니다.<br>
 
-   <b>작업물 확인해보기: https://fhypothesis.github.io/janbogo/main.html</b><br><br>
+   <b>
+      <a href="https://fhypothesis.github.io/janbogo/main.html" target="_blank">작업물 확인해보기(https://fhypothesis.github.io/janbogo/main.html)</a>
+   </b>
+   <br><br>
 
 1. global express<br>
    총 작업시간 : 2일<br>
