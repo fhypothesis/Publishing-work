@@ -7,22 +7,21 @@
 
   --background-color-light-grey: #f7f7f7;
   --background-color-t-down-purple: #816880;
-
 }
 
 * {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 html {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
   position: relative;
   margin: 0 auto;
   box-sizing: border-box;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 a {
@@ -252,7 +251,7 @@ img.menu-logo {
 }
 
 .main-menu-box-wrapper {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   min-width: 1050px;
   letter-spacing: -0.3px;
   background-color: rgb(255, 255, 255);
@@ -282,7 +281,7 @@ img.menu-logo {
 }
 
 .cate-box {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -331,7 +330,6 @@ img.menu-logo {
   font-size: 13px;
   color: var(--text-color-dark-grey);
   letter-spacing: -0.6px;
-
 }
 
 .main-menu-list-box {
@@ -1220,4 +1218,14 @@ img.menu-logo {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+
+@media all and (max-width: 1050px) {
+  .swiper-place {
+    width: 1050px;
+  }
+
+  .kurly-footer {
+    width: 1050px;
+  }
 }
